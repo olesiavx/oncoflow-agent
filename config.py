@@ -1,0 +1,10 @@
+OPENAI_API_KEY = "your_key_here"
+MODEL = "gpt-5.1"
+DATA_DIR = "data/"
+EXPR_RAW_PATH = "data/raw/HiSeqV2-2"
+CLIN_RAW_PATH = "data/raw/TCGA.BRCA.sampleMap-BRCA_clinicalMatrix"
+SURV_PATH = "data/raw/TCGA_BRCA_survival.csv"
+
+EXPR_PATH = "data/brca_expression_clean.csv"
+CLIN_PATH = "data/brca_clinical_clean.csv"
+SURV_PATH = "data/brca_survival_clean.csv"

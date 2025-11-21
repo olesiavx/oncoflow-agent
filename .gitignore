@@ -1,0 +1,38 @@
+#ignore raw data files
+data/raw/*
+!data/raw/README.md
+
+#ignore processed data (intermediate files)
+data/processed/*
+!data/processed/README.md
+
+#ignore Python cache files
+__pycache__/
+*.pyc
+
+#ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+#ignore virtual environments
+venv/
+.env/
+
+#ignore system files
+.DS_Store
+
+#ignore logs and temp files
+*.log
+*.tmp
+
+#ignore large cvs 
+*.gz
+*.tar
+*.zip
+
+#ignore model weights
+*.h5
+*.pt
+*.pth
+
+#ignore any large matrices without extension
+HiSeq*
