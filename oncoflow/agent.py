@@ -1,5 +1,6 @@
 #the orchestrator module that calls all other modules in order to run the full oncoflow analysis
 from .loaders import load_expression, load_clinical
+from .loaders import load_brca_expression, load_brca_clinical, load_brca_survival
 from .preprocessing import clean_expression, clean_clinical
 from .deg import run_deg
 from .survival import run_survival

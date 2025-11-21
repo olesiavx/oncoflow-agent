@@ -40,8 +40,3 @@ def load_expression(path):
 def load_clinical(path):
     return pd.read_csv(path, index_col=0)
 
-#moving the downloads from xena configured to csvs into data/raw
-#from oncoflow.loaders import load_brca_expression, load_brca_clinical
-#expr = load_brca_expression()
-#clin = load_brca_clinical()
-#print(expr.shape, clin.shape)

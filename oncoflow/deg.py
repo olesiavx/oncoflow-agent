@@ -1,5 +1,6 @@
 #tiny differential expression analysis
 import numpy as np
+np.__version__
 import pandas as pd
 
 def run_deg(expr, clin):
